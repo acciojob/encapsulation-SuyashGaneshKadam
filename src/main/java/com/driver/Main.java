@@ -6,8 +6,7 @@ public class Main {
         //obj.name = "Accio";
         //System.out.println(obj.name);
         // java: name has private access in com.driver.RWOnly
-        obj.setter("AccioJob");
-        String name = obj.getter();
-        System.out.println(name);
+        obj.setName("AccioJob");
+        System.out.println(obj.getName());
     }
 }
